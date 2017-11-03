@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30F9A5321FA9C6FB00FE2ED5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F9A5311FA9C6FB00FE2ED5 /* AppDelegate.m */; };
+		30F9A5381FA9C6FB00FE2ED5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A5361FA9C6FB00FE2ED5 /* Main.storyboard */; };
+		30F9A53A1FA9C6FB00FE2ED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A5391FA9C6FB00FE2ED5 /* Assets.xcassets */; };
+		30F9A53D1FA9C6FB00FE2ED5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A53B1FA9C6FB00FE2ED5 /* LaunchScreen.storyboard */; };
+		30F9A5401FA9C6FB00FE2ED5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F9A53F1FA9C6FB00FE2ED5 /* main.m */; };
+		30F9A54A1FA9C6FB00FE2ED5 /* DynamicMenuListDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F9A5491FA9C6FB00FE2ED5 /* DynamicMenuListDemoTests.m */; };
+		30F9A5551FA9C6FB00FE2ED5 /* DynamicMenuListDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F9A5541FA9C6FB00FE2ED5 /* DynamicMenuListDemoUITests.m */; };
+		30F9A56B1FA9C70200FE2ED5 /* DynamicMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F9A5641FA9C70200FE2ED5 /* DynamicMenuCell.m */; };
+		30F9A56C1FA9C70200FE2ED5 /* DynamicMenuFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F9A5661FA9C70200FE2ED5 /* DynamicMenuFooterView.m */; };
+		30F9A56D1FA9C70200FE2ED5 /* DynamicMenuHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F9A5681FA9C70200FE2ED5 /* DynamicMenuHeaderView.m */; };
+		30F9A56E1FA9C70200FE2ED5 /* DynamicMenuListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F9A56A1FA9C70200FE2ED5 /* DynamicMenuListViewController.m */; };
+		30F9A5721FA9C75E00FE2ED5 /* life_exist.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A56F1FA9C75E00FE2ED5 /* life_exist.png */; };
+		30F9A5731FA9C75E00FE2ED5 /* life_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A5701FA9C75E00FE2ED5 /* life_add.png */; };
+		30F9A5741FA9C75E00FE2ED5 /* life_reduce.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A5711FA9C75E00FE2ED5 /* life_reduce.png */; };
+		30F9A5DE1FA9CA5500FE2ED5 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F9A5CD1FA9CA5500FE2ED5 /* UIViewExt.m */; };
+		30F9A5E11FA9CE5900FE2ED5 /* list.json in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A5E01FA9CE5900FE2ED5 /* list.json */; };
+		30F9A5F51FA9D9E900FE2ED5 /* dinghuotong.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A5E61FA9D9E900FE2ED5 /* dinghuotong.png */; };
+		30F9A5F61FA9D9E900FE2ED5 /* duanxintong.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A5E71FA9D9E900FE2ED5 /* duanxintong.png */; };
+		30F9A5F71FA9D9E900FE2ED5 /* jijin.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A5E81FA9D9E900FE2ED5 /* jijin.png */; };
+		30F9A5F81FA9D9E900FE2ED5 /* licai.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A5E91FA9D9E900FE2ED5 /* licai.png */; };
+		30F9A5F91FA9D9E900FE2ED5 /* shoukuanrenguanli.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A5EA1FA9D9E900FE2ED5 /* shoukuanrenguanli.png */; };
+		30F9A5FA1FA9D9E900FE2ED5 /* tongmingzhuanzhang.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A5EB1FA9D9E900FE2ED5 /* tongmingzhuanzhang.png */; };
+		30F9A5FB1FA9D9E900FE2ED5 /* tongzhicunkuan.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A5EC1FA9D9E900FE2ED5 /* tongzhicunkuan.png */; };
+		30F9A5FC1FA9D9E900FE2ED5 /* wodezhanghu.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A5ED1FA9D9E900FE2ED5 /* wodezhanghu.png */; };
+		30F9A5FD1FA9D9E900FE2ED5 /* xinyongkashenqing.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A5EE1FA9D9E900FE2ED5 /* xinyongkashenqing.png */; };
+		30F9A5FE1FA9D9E900FE2ED5 /* yibenwanli.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A5EF1FA9D9E900FE2ED5 /* yibenwanli.png */; };
+		30F9A5FF1FA9D9E900FE2ED5 /* zhanghaobaohu.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A5F01FA9D9E900FE2ED5 /* zhanghaobaohu.png */; };
+		30F9A6001FA9D9E900FE2ED5 /* zhanghuchaxun.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A5F11FA9D9E900FE2ED5 /* zhanghuchaxun.png */; };
+		30F9A6011FA9D9E900FE2ED5 /* zhuanzhang.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A5F21FA9D9E900FE2ED5 /* zhuanzhang.png */; };
+		30F9A6021FA9D9E900FE2ED5 /* zhuanzhangxiane.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A5F31FA9D9E900FE2ED5 /* zhuanzhangxiane.png */; };
+		30F9A6031FA9D9E900FE2ED5 /* zidonghuankuan.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A5F41FA9D9E900FE2ED5 /* zidonghuankuan.png */; };
+		30F9A6051FA9DB7200FE2ED5 /* jiaoyimingxi.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A6041FA9DB7100FE2ED5 /* jiaoyimingxi.png */; };
+		30F9A6071FA9DB9E00FE2ED5 /* jihuo.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A6061FA9DB9E00FE2ED5 /* jihuo.png */; };
+		30F9A6091FA9DBC800FE2ED5 /* fenqi.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A6081FA9DBC800FE2ED5 /* fenqi.png */; };
+		30F9A60B1FA9DC2600FE2ED5 /* kapianguanli.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F9A60A1FA9DC2600FE2ED5 /* kapianguanli.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30F9A5461FA9C6FB00FE2ED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30F9A5251FA9C6FB00FE2ED5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30F9A52C1FA9C6FB00FE2ED5;
+			remoteInfo = DynamicMenuListDemo;
+		};
+		30F9A5511FA9C6FB00FE2ED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30F9A5251FA9C6FB00FE2ED5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30F9A52C1FA9C6FB00FE2ED5;
+			remoteInfo = DynamicMenuListDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30F9A52D1FA9C6FB00FE2ED5 /* DynamicMenuListDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicMenuListDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F9A5301FA9C6FB00FE2ED5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30F9A5311FA9C6FB00FE2ED5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30F9A5371FA9C6FB00FE2ED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30F9A5391FA9C6FB00FE2ED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30F9A53C1FA9C6FB00FE2ED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30F9A53E1FA9C6FB00FE2ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30F9A53F1FA9C6FB00FE2ED5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30F9A5451FA9C6FB00FE2ED5 /* DynamicMenuListDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicMenuListDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F9A5491FA9C6FB00FE2ED5 /* DynamicMenuListDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicMenuListDemoTests.m; sourceTree = "<group>"; };
+		30F9A54B1FA9C6FB00FE2ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30F9A5501FA9C6FB00FE2ED5 /* DynamicMenuListDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicMenuListDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F9A5541FA9C6FB00FE2ED5 /* DynamicMenuListDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicMenuListDemoUITests.m; sourceTree = "<group>"; };
+		30F9A5561FA9C6FB00FE2ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30F9A5631FA9C70200FE2ED5 /* DynamicMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicMenuCell.h; sourceTree = "<group>"; };
+		30F9A5641FA9C70200FE2ED5 /* DynamicMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicMenuCell.m; sourceTree = "<group>"; };
+		30F9A5651FA9C70200FE2ED5 /* DynamicMenuFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicMenuFooterView.h; sourceTree = "<group>"; };
+		30F9A5661FA9C70200FE2ED5 /* DynamicMenuFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicMenuFooterView.m; sourceTree = "<group>"; };
+		30F9A5671FA9C70200FE2ED5 /* DynamicMenuHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicMenuHeaderView.h; sourceTree = "<group>"; };
+		30F9A5681FA9C70200FE2ED5 /* DynamicMenuHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicMenuHeaderView.m; sourceTree = "<group>"; };
+		30F9A5691FA9C70200FE2ED5 /* DynamicMenuListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicMenuListViewController.h; sourceTree = "<group>"; };
+		30F9A56A1FA9C70200FE2ED5 /* DynamicMenuListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicMenuListViewController.m; sourceTree = "<group>"; };
+		30F9A56F1FA9C75E00FE2ED5 /* life_exist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = life_exist.png; sourceTree = "<group>"; };
+		30F9A5701FA9C75E00FE2ED5 /* life_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = life_add.png; sourceTree = "<group>"; };
+		30F9A5711FA9C75E00FE2ED5 /* life_reduce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = life_reduce.png; sourceTree = "<group>"; };
+		30F9A5751FA9C84F00FE2ED5 /* DynamicMenuListDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DynamicMenuListDemo-Prefix.pch"; sourceTree = "<group>"; };
+		30F9A5CC1FA9CA5500FE2ED5 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		30F9A5CD1FA9CA5500FE2ED5 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		30F9A5E01FA9CE5900FE2ED5 /* list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = list.json; sourceTree = "<group>"; };
+		30F9A5E61FA9D9E900FE2ED5 /* dinghuotong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dinghuotong.png; sourceTree = "<group>"; };
+		30F9A5E71FA9D9E900FE2ED5 /* duanxintong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duanxintong.png; sourceTree = "<group>"; };
+		30F9A5E81FA9D9E900FE2ED5 /* jijin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jijin.png; sourceTree = "<group>"; };
+		30F9A5E91FA9D9E900FE2ED5 /* licai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = licai.png; sourceTree = "<group>"; };
+		30F9A5EA1FA9D9E900FE2ED5 /* shoukuanrenguanli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoukuanrenguanli.png; sourceTree = "<group>"; };
+		30F9A5EB1FA9D9E900FE2ED5 /* tongmingzhuanzhang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tongmingzhuanzhang.png; sourceTree = "<group>"; };
+		30F9A5EC1FA9D9E900FE2ED5 /* tongzhicunkuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tongzhicunkuan.png; sourceTree = "<group>"; };
+		30F9A5ED1FA9D9E900FE2ED5 /* wodezhanghu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wodezhanghu.png; sourceTree = "<group>"; };
+		30F9A5EE1FA9D9E900FE2ED5 /* xinyongkashenqing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xinyongkashenqing.png; sourceTree = "<group>"; };
+		30F9A5EF1FA9D9E900FE2ED5 /* yibenwanli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yibenwanli.png; sourceTree = "<group>"; };
+		30F9A5F01FA9D9E900FE2ED5 /* zhanghaobaohu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhanghaobaohu.png; sourceTree = "<group>"; };
+		30F9A5F11FA9D9E900FE2ED5 /* zhanghuchaxun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhanghuchaxun.png; sourceTree = "<group>"; };
+		30F9A5F21FA9D9E900FE2ED5 /* zhuanzhang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhuanzhang.png; sourceTree = "<group>"; };
+		30F9A5F31FA9D9E900FE2ED5 /* zhuanzhangxiane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhuanzhangxiane.png; sourceTree = "<group>"; };
+		30F9A5F41FA9D9E900FE2ED5 /* zidonghuankuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zidonghuankuan.png; sourceTree = "<group>"; };
+		30F9A6041FA9DB7100FE2ED5 /* jiaoyimingxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jiaoyimingxi.png; sourceTree = "<group>"; };
+		30F9A6061FA9DB9E00FE2ED5 /* jihuo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jihuo.png; sourceTree = "<group>"; };
+		30F9A6081FA9DBC800FE2ED5 /* fenqi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fenqi.png; sourceTree = "<group>"; };
+		30F9A60A1FA9DC2600FE2ED5 /* kapianguanli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kapianguanli.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30F9A52A1FA9C6FB00FE2ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F9A5421FA9C6FB00FE2ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F9A54D1FA9C6FB00FE2ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30F9A5241FA9C6FB00FE2ED5 = {
+			isa = PBXGroup;
+			children = (
+				30F9A52F1FA9C6FB00FE2ED5 /* DynamicMenuListDemo */,
+				30F9A5481FA9C6FB00FE2ED5 /* DynamicMenuListDemoTests */,
+				30F9A5531FA9C6FB00FE2ED5 /* DynamicMenuListDemoUITests */,
+				30F9A52E1FA9C6FB00FE2ED5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30F9A52E1FA9C6FB00FE2ED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30F9A52D1FA9C6FB00FE2ED5 /* DynamicMenuListDemo.app */,
+				30F9A5451FA9C6FB00FE2ED5 /* DynamicMenuListDemoTests.xctest */,
+				30F9A5501FA9C6FB00FE2ED5 /* DynamicMenuListDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30F9A52F1FA9C6FB00FE2ED5 /* DynamicMenuListDemo */ = {
+			isa = PBXGroup;
+			children = (
+				30F9A5621FA9C70200FE2ED5 /* DynamicMenuList */,
+				30F9A5301FA9C6FB00FE2ED5 /* AppDelegate.h */,
+				30F9A5311FA9C6FB00FE2ED5 /* AppDelegate.m */,
+				30F9A5361FA9C6FB00FE2ED5 /* Main.storyboard */,
+				30F9A5391FA9C6FB00FE2ED5 /* Assets.xcassets */,
+				30F9A53B1FA9C6FB00FE2ED5 /* LaunchScreen.storyboard */,
+				30F9A53E1FA9C6FB00FE2ED5 /* Info.plist */,
+				30F9A5751FA9C84F00FE2ED5 /* DynamicMenuListDemo-Prefix.pch */,
+				30F9A5E51FA9D9E900FE2ED5 /* images */,
+				30F9A5A81FA9CA5500FE2ED5 /* Vendor */,
+				30F9A53F1FA9C6FB00FE2ED5 /* main.m */,
+			);
+			path = DynamicMenuListDemo;
+			sourceTree = "<group>";
+		};
+		30F9A5481FA9C6FB00FE2ED5 /* DynamicMenuListDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				30F9A5491FA9C6FB00FE2ED5 /* DynamicMenuListDemoTests.m */,
+				30F9A54B1FA9C6FB00FE2ED5 /* Info.plist */,
+			);
+			path = DynamicMenuListDemoTests;
+			sourceTree = "<group>";
+		};
+		30F9A5531FA9C6FB00FE2ED5 /* DynamicMenuListDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30F9A5541FA9C6FB00FE2ED5 /* DynamicMenuListDemoUITests.m */,
+				30F9A5561FA9C6FB00FE2ED5 /* Info.plist */,
+			);
+			path = DynamicMenuListDemoUITests;
+			sourceTree = "<group>";
+		};
+		30F9A5621FA9C70200FE2ED5 /* DynamicMenuList */ = {
+			isa = PBXGroup;
+			children = (
+				30F9A5E01FA9CE5900FE2ED5 /* list.json */,
+				30F9A5701FA9C75E00FE2ED5 /* life_add.png */,
+				30F9A56F1FA9C75E00FE2ED5 /* life_exist.png */,
+				30F9A5711FA9C75E00FE2ED5 /* life_reduce.png */,
+				30F9A5631FA9C70200FE2ED5 /* DynamicMenuCell.h */,
+				30F9A5641FA9C70200FE2ED5 /* DynamicMenuCell.m */,
+				30F9A5651FA9C70200FE2ED5 /* DynamicMenuFooterView.h */,
+				30F9A5661FA9C70200FE2ED5 /* DynamicMenuFooterView.m */,
+				30F9A5671FA9C70200FE2ED5 /* DynamicMenuHeaderView.h */,
+				30F9A5681FA9C70200FE2ED5 /* DynamicMenuHeaderView.m */,
+				30F9A5691FA9C70200FE2ED5 /* DynamicMenuListViewController.h */,
+				30F9A56A1FA9C70200FE2ED5 /* DynamicMenuListViewController.m */,
+			);
+			path = DynamicMenuList;
+			sourceTree = "<group>";
+		};
+		30F9A5A81FA9CA5500FE2ED5 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				30F9A5CB1FA9CA5500FE2ED5 /* UIViewExt */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		30F9A5CB1FA9CA5500FE2ED5 /* UIViewExt */ = {
+			isa = PBXGroup;
+			children = (
+				30F9A5CC1FA9CA5500FE2ED5 /* UIViewExt.h */,
+				30F9A5CD1FA9CA5500FE2ED5 /* UIViewExt.m */,
+			);
+			path = UIViewExt;
+			sourceTree = "<group>";
+		};
+		30F9A5E51FA9D9E900FE2ED5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				30F9A60A1FA9DC2600FE2ED5 /* kapianguanli.png */,
+				30F9A6081FA9DBC800FE2ED5 /* fenqi.png */,
+				30F9A6041FA9DB7100FE2ED5 /* jiaoyimingxi.png */,
+				30F9A5E61FA9D9E900FE2ED5 /* dinghuotong.png */,
+				30F9A5E71FA9D9E900FE2ED5 /* duanxintong.png */,
+				30F9A6061FA9DB9E00FE2ED5 /* jihuo.png */,
+				30F9A5E81FA9D9E900FE2ED5 /* jijin.png */,
+				30F9A5E91FA9D9E900FE2ED5 /* licai.png */,
+				30F9A5EA1FA9D9E900FE2ED5 /* shoukuanrenguanli.png */,
+				30F9A5EB1FA9D9E900FE2ED5 /* tongmingzhuanzhang.png */,
+				30F9A5EC1FA9D9E900FE2ED5 /* tongzhicunkuan.png */,
+				30F9A5ED1FA9D9E900FE2ED5 /* wodezhanghu.png */,
+				30F9A5EE1FA9D9E900FE2ED5 /* xinyongkashenqing.png */,
+				30F9A5EF1FA9D9E900FE2ED5 /* yibenwanli.png */,
+				30F9A5F01FA9D9E900FE2ED5 /* zhanghaobaohu.png */,
+				30F9A5F11FA9D9E900FE2ED5 /* zhanghuchaxun.png */,
+				30F9A5F21FA9D9E900FE2ED5 /* zhuanzhang.png */,
+				30F9A5F31FA9D9E900FE2ED5 /* zhuanzhangxiane.png */,
+				30F9A5F41FA9D9E900FE2ED5 /* zidonghuankuan.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30F9A52C1FA9C6FB00FE2ED5 /* DynamicMenuListDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F9A5591FA9C6FB00FE2ED5 /* Build configuration list for PBXNativeTarget "DynamicMenuListDemo" */;
+			buildPhases = (
+				30F9A5291FA9C6FB00FE2ED5 /* Sources */,
+				30F9A52A1FA9C6FB00FE2ED5 /* Frameworks */,
+				30F9A52B1FA9C6FB00FE2ED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicMenuListDemo;
+			productName = DynamicMenuListDemo;
+			productReference = 30F9A52D1FA9C6FB00FE2ED5 /* DynamicMenuListDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30F9A5441FA9C6FB00FE2ED5 /* DynamicMenuListDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F9A55C1FA9C6FB00FE2ED5 /* Build configuration list for PBXNativeTarget "DynamicMenuListDemoTests" */;
+			buildPhases = (
+				30F9A5411FA9C6FB00FE2ED5 /* Sources */,
+				30F9A5421FA9C6FB00FE2ED5 /* Frameworks */,
+				30F9A5431FA9C6FB00FE2ED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30F9A5471FA9C6FB00FE2ED5 /* PBXTargetDependency */,
+			);
+			name = DynamicMenuListDemoTests;
+			productName = DynamicMenuListDemoTests;
+			productReference = 30F9A5451FA9C6FB00FE2ED5 /* DynamicMenuListDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30F9A54F1FA9C6FB00FE2ED5 /* DynamicMenuListDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F9A55F1FA9C6FB00FE2ED5 /* Build configuration list for PBXNativeTarget "DynamicMenuListDemoUITests" */;
+			buildPhases = (
+				30F9A54C1FA9C6FB00FE2ED5 /* Sources */,
+				30F9A54D1FA9C6FB00FE2ED5 /* Frameworks */,
+				30F9A54E1FA9C6FB00FE2ED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30F9A5521FA9C6FB00FE2ED5 /* PBXTargetDependency */,
+			);
+			name = DynamicMenuListDemoUITests;
+			productName = DynamicMenuListDemoUITests;
+			productReference = 30F9A5501FA9C6FB00FE2ED5 /* DynamicMenuListDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30F9A5251FA9C6FB00FE2ED5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = TZ;
+				TargetAttributes = {
+					30F9A52C1FA9C6FB00FE2ED5 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					30F9A5441FA9C6FB00FE2ED5 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30F9A52C1FA9C6FB00FE2ED5;
+					};
+					30F9A54F1FA9C6FB00FE2ED5 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30F9A52C1FA9C6FB00FE2ED5;
+					};
+				};
+			};
+			buildConfigurationList = 30F9A5281FA9C6FB00FE2ED5 /* Build configuration list for PBXProject "DynamicMenuListDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30F9A5241FA9C6FB00FE2ED5;
+			productRefGroup = 30F9A52E1FA9C6FB00FE2ED5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30F9A52C1FA9C6FB00FE2ED5 /* DynamicMenuListDemo */,
+				30F9A5441FA9C6FB00FE2ED5 /* DynamicMenuListDemoTests */,
+				30F9A54F1FA9C6FB00FE2ED5 /* DynamicMenuListDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30F9A52B1FA9C6FB00FE2ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F9A5F51FA9D9E900FE2ED5 /* dinghuotong.png in Resources */,
+				30F9A5F61FA9D9E900FE2ED5 /* duanxintong.png in Resources */,
+				30F9A5FC1FA9D9E900FE2ED5 /* wodezhanghu.png in Resources */,
+				30F9A6071FA9DB9E00FE2ED5 /* jihuo.png in Resources */,
+				30F9A6021FA9D9E900FE2ED5 /* zhuanzhangxiane.png in Resources */,
+				30F9A5E11FA9CE5900FE2ED5 /* list.json in Resources */,
+				30F9A5FB1FA9D9E900FE2ED5 /* tongzhicunkuan.png in Resources */,
+				30F9A60B1FA9DC2600FE2ED5 /* kapianguanli.png in Resources */,
+				30F9A5F91FA9D9E900FE2ED5 /* shoukuanrenguanli.png in Resources */,
+				30F9A5FE1FA9D9E900FE2ED5 /* yibenwanli.png in Resources */,
+				30F9A5731FA9C75E00FE2ED5 /* life_add.png in Resources */,
+				30F9A6031FA9D9E900FE2ED5 /* zidonghuankuan.png in Resources */,
+				30F9A6001FA9D9E900FE2ED5 /* zhanghuchaxun.png in Resources */,
+				30F9A53D1FA9C6FB00FE2ED5 /* LaunchScreen.storyboard in Resources */,
+				30F9A5721FA9C75E00FE2ED5 /* life_exist.png in Resources */,
+				30F9A6011FA9D9E900FE2ED5 /* zhuanzhang.png in Resources */,
+				30F9A6051FA9DB7200FE2ED5 /* jiaoyimingxi.png in Resources */,
+				30F9A6091FA9DBC800FE2ED5 /* fenqi.png in Resources */,
+				30F9A5FA1FA9D9E900FE2ED5 /* tongmingzhuanzhang.png in Resources */,
+				30F9A5741FA9C75E00FE2ED5 /* life_reduce.png in Resources */,
+				30F9A53A1FA9C6FB00FE2ED5 /* Assets.xcassets in Resources */,
+				30F9A5FF1FA9D9E900FE2ED5 /* zhanghaobaohu.png in Resources */,
+				30F9A5F71FA9D9E900FE2ED5 /* jijin.png in Resources */,
+				30F9A5FD1FA9D9E900FE2ED5 /* xinyongkashenqing.png in Resources */,
+				30F9A5381FA9C6FB00FE2ED5 /* Main.storyboard in Resources */,
+				30F9A5F81FA9D9E900FE2ED5 /* licai.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F9A5431FA9C6FB00FE2ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F9A54E1FA9C6FB00FE2ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30F9A5291FA9C6FB00FE2ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F9A56D1FA9C70200FE2ED5 /* DynamicMenuHeaderView.m in Sources */,
+				30F9A56E1FA9C70200FE2ED5 /* DynamicMenuListViewController.m in Sources */,
+				30F9A5DE1FA9CA5500FE2ED5 /* UIViewExt.m in Sources */,
+				30F9A5401FA9C6FB00FE2ED5 /* main.m in Sources */,
+				30F9A56B1FA9C70200FE2ED5 /* DynamicMenuCell.m in Sources */,
+				30F9A5321FA9C6FB00FE2ED5 /* AppDelegate.m in Sources */,
+				30F9A56C1FA9C70200FE2ED5 /* DynamicMenuFooterView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F9A5411FA9C6FB00FE2ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F9A54A1FA9C6FB00FE2ED5 /* DynamicMenuListDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F9A54C1FA9C6FB00FE2ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F9A5551FA9C6FB00FE2ED5 /* DynamicMenuListDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30F9A5471FA9C6FB00FE2ED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30F9A52C1FA9C6FB00FE2ED5 /* DynamicMenuListDemo */;
+			targetProxy = 30F9A5461FA9C6FB00FE2ED5 /* PBXContainerItemProxy */;
+		};
+		30F9A5521FA9C6FB00FE2ED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30F9A52C1FA9C6FB00FE2ED5 /* DynamicMenuListDemo */;
+			targetProxy = 30F9A5511FA9C6FB00FE2ED5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30F9A5361FA9C6FB00FE2ED5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F9A5371FA9C6FB00FE2ED5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30F9A53B1FA9C6FB00FE2ED5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F9A53C1FA9C6FB00FE2ED5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30F9A5571FA9C6FB00FE2ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30F9A5581FA9C6FB00FE2ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30F9A55A1FA9C6FB00FE2ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 832EPSL7GQ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DynamicMenuListDemo/DynamicMenuListDemo-Prefix.pch";
+				INFOPLIST_FILE = DynamicMenuListDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TZ.DynamicMenuListDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30F9A55B1FA9C6FB00FE2ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 832EPSL7GQ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DynamicMenuListDemo/DynamicMenuListDemo-Prefix.pch";
+				INFOPLIST_FILE = DynamicMenuListDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TZ.DynamicMenuListDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30F9A55D1FA9C6FB00FE2ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DynamicMenuListDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TZ.DynamicMenuListDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicMenuListDemo.app/DynamicMenuListDemo";
+			};
+			name = Debug;
+		};
+		30F9A55E1FA9C6FB00FE2ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DynamicMenuListDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TZ.DynamicMenuListDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicMenuListDemo.app/DynamicMenuListDemo";
+			};
+			name = Release;
+		};
+		30F9A5601FA9C6FB00FE2ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DynamicMenuListDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TZ.DynamicMenuListDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DynamicMenuListDemo;
+			};
+			name = Debug;
+		};
+		30F9A5611FA9C6FB00FE2ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DynamicMenuListDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TZ.DynamicMenuListDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DynamicMenuListDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30F9A5281FA9C6FB00FE2ED5 /* Build configuration list for PBXProject "DynamicMenuListDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F9A5571FA9C6FB00FE2ED5 /* Debug */,
+				30F9A5581FA9C6FB00FE2ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30F9A5591FA9C6FB00FE2ED5 /* Build configuration list for PBXNativeTarget "DynamicMenuListDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F9A55A1FA9C6FB00FE2ED5 /* Debug */,
+				30F9A55B1FA9C6FB00FE2ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30F9A55C1FA9C6FB00FE2ED5 /* Build configuration list for PBXNativeTarget "DynamicMenuListDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F9A55D1FA9C6FB00FE2ED5 /* Debug */,
+				30F9A55E1FA9C6FB00FE2ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30F9A55F1FA9C6FB00FE2ED5 /* Build configuration list for PBXNativeTarget "DynamicMenuListDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F9A5601FA9C6FB00FE2ED5 /* Debug */,
+				30F9A5611FA9C6FB00FE2ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30F9A5251FA9C6FB00FE2ED5 /* Project object */;
+}

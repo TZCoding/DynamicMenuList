@@ -1,0 +1,26 @@
+//
+//  DynamicMenuListDemo-Prefix.pch
+//  DynamicMenuListDemo
+//
+//  Created by TZ on 2017/11/1.
+//  Copyright © 2017年 TZ. All rights reserved.
+//
+
+#ifdef  __OBJC__
+#import "UIViewExt.h"
+
+#endif
+
+#define SCALE (kScreen_Width/320)
+#define kScreen_Height [UIScreen mainScreen].bounds.size.height
+#define kScreen_Width [UIScreen mainScreen].bounds.size.width
+
+#define kMenuListItemHeight (kScreen_Width/4)
+#define kSeparatorLineHeight (1.0f / [UIScreen mainScreen].scale)
+
+#define UIColorMake(r, g, b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+#define kTableViewBgColor UIColorMake(239, 239,243)
+#define kSeparatorLineColor UIColorMake(222, 224, 226)
+
+#define kTipAlert(_S_, ...)     [[[UIAlertView alloc] initWithTitle:@"提示" message:_S_ delegate:nil cancelButtonTitle:@"知道了" otherButtonTitles:nil] show]
+

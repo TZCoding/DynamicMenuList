@@ -1,0 +1,110 @@
+{
+    "list" : [
+              {
+              "title" : "查询",
+              "menuList" : [
+                            {
+                            "actionName" : "我的账户",
+                            "image" : "wodezhanghu"
+                            
+                            },
+                            {
+                            "actionName" : "交易明细",
+                            "image" : "jiaoyimingxi"
+                            },
+                            {
+                            "actionName" : "账户查询",
+                            "image" : "zhanghuchaxun"
+                            }
+              ]
+              },
+              {
+              "title" : "转账汇款",
+              "menuList" : [
+                            {
+                            "actionName" : "转账",
+                            "image" : "zhuanzhang"
+                            
+                            },
+                            {
+                            "actionName" : "同名转账",
+                            "image" : "tongmingzhuanzhang"
+                            },
+                            {
+                            "actionName" : "收款人管理",
+                            "image" : "shoukuanrenguanli"
+                            }
+                            ]
+              },
+              {
+              "title" : "投资理财",
+              "menuList" : [
+                            {
+                            "actionName" : "理财",
+                            "image" : "licai"
+                            
+                            },
+                            {
+                            "actionName" : "基金",
+                            "image" : "jijin"
+                            },
+                            {
+                            "actionName" : "一本万利",
+                            "image" : "yibenwanli"
+                            },
+                            {
+                            "actionName" : "定活通",
+                            "image" : "dinghuotong"
+                            },
+                            {
+                            "actionName" : "通知存款",
+                            "image" : "tongzhicunkuan"
+                            }
+                            ]
+              },
+              {
+              "title" : "信用卡",
+              "menuList" : [
+                            {
+                            "actionName" : "自动还款",
+                            "image" : "zidonghuankuan"
+                            
+                            },
+                            {
+                            "actionName" : "信用卡申请",
+                            "image" : "xinyongkashenqing"
+                            },
+                            {
+                            "actionName" : "信用卡激活",
+                            "image" : "jihuo"
+                            },
+                            {
+                            "actionName" : "信用卡分期",
+                            "image" : "fenqi"
+                            },
+                            {
+                            "actionName" : "卡片管理",
+                            "image" : "kapianguanli"
+                            }
+                            ]
+              },
+              {
+              "title" : "金融助手",
+              "menuList" : [
+                            {
+                            "actionName" : "短信通",
+                            "image" : "duanxintong"
+                            
+                            },
+                            {
+                            "actionName" : "转账限额",
+                            "image" : "zhuanzhangxiane"
+                            },
+                            {
+                            "actionName" : "账号保护",
+                            "image" : "zhanghaobaohu"
+                            }
+                            ]
+              }
+    ]
+}
